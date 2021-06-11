@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sana&subset=latin,latin-ext);
+
+body {
+    font-family:Open sans,sans,serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+ul.menu {
+    background: #16a085;
+    height: 50px;
+}
+ul.menu .li {
+    float: left;
+    border,right: 1px solid rgba(0,0,0,.1);
+}
+url.menu li a {
+    display: block;
+    font-size:14px;
+    color: #ffff;
+    padding:0 15px;
+    line-height: 50px;
+}
